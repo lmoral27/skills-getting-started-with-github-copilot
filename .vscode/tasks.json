@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Iniciar servidor FastAPI con autenticación",
+			"type": "shell",
+			"command": "/home/luis/proyectos/github-copilot/.venv/bin/python -m uvicorn src.app:app --reload --host 127.0.0.1 --port 8000"
+		}
+	]
+}
